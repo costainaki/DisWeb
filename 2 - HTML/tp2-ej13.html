@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Ejercicio 13</title>
+    <META name="description" content="Resolución ejercicio 13">
+    <META name="author" content="Iñaki Costa">
+    <META name="copyright" content="Departamento de Informática">
+</head>
+<body style="font-family: arial;">
+    <h1 style="color:darkred;">Agencia de Empleos Temporarios</h1>
+    <h3>Vení a trabajar con nosotros!</h3>
+    <form>
+        <p style="margin-left: 10px;">
+            Nombre/s:<br>
+            <input type="text" name="nombre"><br>
+            Apellido/s:<br>
+            <input type="text" name="apellido"><br>
+            <br>
+            Disponibilidad horaria:<br>
+            <input type="checkbox" name="horario" value="mañana">Mañana<br>
+            <input type="checkbox" name="horario" value="tarde">Tarde<br>
+            <input type="checkbox" name="horario" value="noche">Noche<br>
+            <br>
+            Salario pretendido:<br>
+            <input type="number" max="1187328" min="296832" name="salario"><br>
+            <br>
+            Área de trabajo:<br>
+            <select name="area">
+                <option value="administracion">Administración</option>
+                <option value="logistica">Logística</option>
+                <option value="industria">Industria</option>
+                <option value="rrhh">Recursos Humanos</option>
+                <option value="it">Tecnología de Información</option>
+            </select><br>
+            <br>
+            Cantidad de hijos:<br>
+            <span style="font-size:14px">
+                Menores de 12 años: <input type="number" name="hijosmin" size="2"><br>
+                Entre 12 y 21 años: <input type="number" name="hijosmed" size="2"><br>
+                Mayores de 21 años: <input type="number" name="hijosmax" size="2"><br>
+            </span>
+            <br>
+            Posee pasaporte:<br>
+            <input type="radio" name="pasaporte" value="si">Si<br>
+            <input type="radio" name="pasaporte" value="no">No<br>
+            <br>
+            Número de documento:<br>
+            <input type="number" name="dni"><br>
+            <br>
+            Adjunte su currículum vitae:<br>
+            <input type="file" name="cv" accept=".pdf" ><br>
+        </p>
+        <input type="submit" value="Enviar">
+    </form>
+</body>

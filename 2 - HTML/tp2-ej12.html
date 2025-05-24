@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Ejercicio 12</title>
+    <META name="description" content="Resolución ejercicio 12">
+    <META name="author" content="Iñaki Costa">
+    <META name="copyright" content="Departamento de Informática">
+</head>
+<body>
+    <h1 style="color:darkblue;">Escuela Sol y Luna</h1>
+    <h3>Formulario de inscripción</h3>
+    <form>
+        <u>Información de contacto</u><br>
+        <p style="margin-left: 10px;">
+            Teléfono:<br>
+            <input type="tel" name="telefono"><br>
+            e-Mail:<br>
+            <input type="email" name="email" size="30"><br>
+        </p>
+        <u>Información del estudiante</u><br>
+        <p style="margin-left: 10px;">
+            Nombre/s:<br>
+            <input type="text" name="nombre"><br>
+            Apellido/s:<br>
+            <input type="text" name="apellido"><br>
+            Fecha de nacimiento:<br>
+            <input type="date" name="nacimiento"><br>
+            Curso:<br>
+            <select name="curso">
+                <optgroup label="1er Año">
+                    <option value="1A">1ro A</option>
+                    <option value="1B">1ro B</option>
+                    <option value="1C">1ro C</option>
+                    <option value="1D">1ro D</option>
+                </optgroup>
+                <optgroup label="2do Año">
+                    <option value="2A">2do A</option>
+                    <option value="2B">2do B</option>
+                    <option value="2C">2do C</option>
+                    <option value="2D">2do D</option>
+                </optgroup>
+                <optgroup label="3er Año">
+                    <option value="3A">3ro A</option>
+                    <option value="3B">3ro B</option>
+                    <option value="3C">3ro C</option>
+                    <option value="3D">3ro D</option>
+                </optgroup>
+                <optgroup label="4to Año">
+                    <option value="4A">4to A</option>
+                    <option value="4B">4to B</option>
+                    <option value="4C">4to C</option>
+                    <option value="4D">4to D</option>
+                </optgroup>
+                <optgroup label="5to Año">
+                    <option value="5A">5to A</option>
+                    <option value="5B">5to B</option>
+                    <option value="5C">5to C</option>
+                    <option value="5D">5to D</option>
+                </optgroup>
+                <optgroup label="6to Año">
+                    <option value="6A">6to A</option>
+                    <option value="6B">6to B</option>
+                    <option value="6C">6to C</option>
+                    <option value="6D">6to D</option>
+                </optgroup>
+            </select><br>
+            Turno:<br>
+            <input type="radio" name="turno" value="mañana">Mañana<br>
+            <input type="radio" name="turno" value="tarde">Tarde<br>
+            <input type="radio" name="turno" value="noche">Noche<br>
+            Escuela de origen:<br>
+            <input type="text" name="escuela" size="40"><br>
+        </p>
+        <u>Comentarios, consultas o sugerencias:</u><br>
+        <p style="margin-left: 10px;">
+            <textarea rows="5" cols="50"></textarea><br>
+            <!--<input type="text" name="consulta" style="width:300px; height: 80px;"><br>-->
+        </p>
+        <input type="submit" value="Enviar">
+    </form>
+</body>

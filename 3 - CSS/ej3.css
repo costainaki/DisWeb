@@ -1,0 +1,42 @@
+.celeste_centrada {
+    color: lightblue;
+    font-family: "Verdana";
+}
+
+.celeste_centrada > h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+.celeste_centrada > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 320px;
+    width: 320px;
+}
+
+.celeste_centrada > table {
+    margin: 0 auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.celeste_centrada > td, th {
+    border: 1px;
+    border-color: lightblue;
+}
+
+.celeste_centrada > a {
+    color: #800020;
+    text-decoration: none;
+}
+
+.celeste_centrada > a:hover {
+    color:gold;
+}
+
+.celeste_centrada > p {
+    font-size: 12px;
+}
+
+/*FALTA CAMBIAR COLOR ENLACE CUANDO MOUSE PASA ENCIMA

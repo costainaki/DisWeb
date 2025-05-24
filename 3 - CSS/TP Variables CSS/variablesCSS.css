@@ -1,0 +1,26 @@
+:root {
+    --col-fondo: #b5b5b5;
+    --col-cuadros: #ff88ff;
+    --tam-cuadros: 120px;
+    --espaciado: 12px;
+    --tam-texto: 16px;
+    --col-texto: #111111;
+    --col-h1: var(--col-cuadros);
+}
+
+.main-page {
+    background-color: var(--col-fondo);
+}
+
+.main-page > h1 {
+    color: var(--col-h1);
+}
+
+.main-page > div {
+    background-color: var(--col-cuadros);
+    padding: var(--espaciado);
+    color: var(--col-texto);
+    font-size: var(--tam-texto);
+    width: var(--tam-cuadros);
+    height: var(--tam-cuadros);
+}
